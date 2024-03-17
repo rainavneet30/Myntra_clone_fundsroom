@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Signup.css";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { registerUser } from "../../Redux/auth/action";
 import { message } from "antd";
